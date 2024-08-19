@@ -1,0 +1,48 @@
+body{
+	background-color: black;
+	color: white;
+}
+h1{
+	text-align:center;
+}
+table{
+	width: 50%;
+	text-align: center;
+	margin:auto;
+	border-collapse: collapse;
+}
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+input[type="button"] {
+    border: none;
+    border-radius: 20px; /* Ajusta este valor para hacer los bordes más o menos redondeados */
+    padding: 10px 20px; /* Ajusta el tamaño del botón */
+    background-color: #007bff; /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+    
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 20px; /* Ajusta este valor para hacer los bordes más o menos redondeados */
+    padding: 10px 20px; /* Ajusta el tamaño del botón */
+    background-color: #007bff; /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+}

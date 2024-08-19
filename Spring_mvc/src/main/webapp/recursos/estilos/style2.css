@@ -1,0 +1,28 @@
+body{
+	
+	background-color: grey;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% de la altura de la ventana */
+    margin: 100px; /* Elimina márgenes por defecto */
+	flex-direction: column; 
+ 	
+}
+img{
+	margin-top:10px;
+	width:400px;
+	
+}
+
+input{
+	
+    
+    
+   
+    border-radius: 25px;
+    margin-top: 10px; /* Añade un poco de espacio entre los inputs */
+    
+   
+    
+}

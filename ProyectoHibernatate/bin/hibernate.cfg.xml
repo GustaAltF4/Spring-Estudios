@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="connection.url">jdbc:mysql://localhost:3306/pruebashibernate?useSSL=false</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password">2015guscho12345</property>
+    <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+    <property name="hibernate.show_sql">true</property>
+    
+    <!-- SQL dialect -->
+    <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+    
+    <!-- Echo all executed SQL to stdout -->
+    <property name="hibernate.show_sql">true</property>
+    
+    <!-- Drop and re-create the database schema on startup (use `update` for production) -->
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    
+    <!-- Names the annotated entity class -->
+    <mapping class="es.conexionHibernate.Clientes"/>
+ 
+ 
+  </session-factory>
+</hibernate-configuration>
